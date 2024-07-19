@@ -1,0 +1,3 @@
+
+https://github.com/prusa3d/PrusaSlicer
+https://github.com/prusa3d/PrusaSlicer/releases
