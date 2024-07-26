@@ -26,3 +26,5 @@ Make this version work:
     which automates the process of linking your "Roaming"-Folder "PrusaSlicer" 
     whereever you move your PrusaSlicer App or use a different Computer, for 
     example.
+
+**(This steps where needed, because GitHub dont allow you to upload files that are bigger than 25MB, via Browser)**
