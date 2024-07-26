@@ -1,6 +1,13 @@
+PrusaSlicer vers. 2.80 for Anycubic Kobra 3 combo
+=================================================
+This is a portable PrusaSlicer v2.80 for Anycubic Kobra 3 combo which includes 
+already all nescecary files (profiles) to start right away printing with PLA.
+You can modify and set everything to different materials like PETG.
+<br>
+<br>
 
-Make this version work:
-=======================
+Make this version work, step by step:
+=====================================
 
 1.) Download this repo, via --> Code --> Download ZIP
 
