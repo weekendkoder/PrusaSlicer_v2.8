@@ -1,8 +1,17 @@
 PrusaSlicer vers. 2.80 for Anycubic Kobra 3 combo
 =================================================
-This is a portable PrusaSlicer v2.80 for Anycubic Kobra 3 combo which includes 
+This is a portable *PrusaSlicer v2.80* for *Anycubic Kobra 3 combo* which includes 
 already all nescecary files (profiles) to start right away printing with PLA.
-You can modify and set everything to different materials like PETG.
+You can modify and set everything to different materials like PETG (which should be easy for you).
+<br>
+
+**MOTIVATION:**
+<br>
+I don´t like to use the regular "Anycubic Sclicer". I also don´t like to use the modified ver. of OrcaSlicer by Anycubic.
+the original PrusaSlicer is fast and reliable. Therefore i wanted it to work with Anycubic Kobra 3 combo multimaterial.
+<br>
+
+It works with the ACE Pro - Multimaterial & without. In my case, i use the ACE Pro.
 <br>
 <br>
 
@@ -35,3 +44,11 @@ Make this version work, step by step:
     example.
 
 **(This steps where needed, because GitHub dont allow you to upload files that are bigger than 25MB, via Browser)**
+<br>
+<br>
+
+Be aware, that this PrusaSlicer vers. is not super optimized by me:
+===================================================================
+I adapted all values / parameters as good as i could from the regular *Anycubic Slicer*. Feel free to optimize it by yourself.
+
+
