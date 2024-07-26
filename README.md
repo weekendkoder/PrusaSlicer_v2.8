@@ -4,6 +4,8 @@ This is a portable *PrusaSlicer v2.80* for *Anycubic Kobra 3 combo* which includ
 already all nescecary files (profiles) to start right away printing with PLA.
 You can modify and set everything to different materials like PETG (which should be easy for you).
 <br>
+![image](https://github.com/user-attachments/assets/d25bd5c3-7ae7-4424-ab32-7b9a9657f83b)
+
 
 <ins>**MOTIVATION:**</ins>
 <br>
