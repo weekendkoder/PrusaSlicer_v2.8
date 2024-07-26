@@ -70,9 +70,9 @@ installed and only downloading my "=PrusaSlicer_CONFIG-BUNDLE=.ini" config bundl
 <br>
 <br>
 
-Be aware, that this PrusaSlicer vers. is not super optimized by me:
-===================================================================
-But it works fine with fast printing & good quality for me. I adapted all values / parameters as good as i could from the regular *Anycubic Slicer*. Feel free to optimize it by yourself.
+Be aware, my P.S.-configuration is not super optimized:
+=======================================================
+But it works fine for me, with fast printing in a good quality. I adapted all values / parameters as good as i could from the regular *Anycubic Slicer*. Feel free to optimize it by yourself.
 Make some comments or report issues, if you like.
 
 
