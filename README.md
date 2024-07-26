@@ -11,7 +11,8 @@ I don´t like to use the regular "Anycubic Sclicer". I also don´t like to use t
 the original PrusaSlicer is fast and reliable. Therefore i wanted it to work with Anycubic Kobra 3 combo multimaterial.
 <br>
 
-It works with the ACE Pro - Multimaterial & without. In my case, i use the ACE Pro.
+In my case, it works with the ACE Pro - Multimaterial & without. It prints very well. This way i have all the new features from
+the PrusaSlicer i would like to use. Staying with Anycubic Slicer, new features would take time to be implemented.
 <br>
 
 <ins>2nd Point:</ins>
@@ -64,7 +65,8 @@ If you only aming for the profiles, without using my version of PrusaSlicer:
 ============================================================================
 Your Profiles are stored inside a folder "PrusaSlicer" which is located under a folder "Roaming" inside the users folder.
 You can copy all this manually, or you can use the build-in function of PrusaSlicer to import a "config bundle". The "config bundle"
-is inside this PrusaSlicer version, named: "=PrusaSlicer_CONFIG-BUNDLE=.ini"
+is inside this PrusaSlicer version, named: "=PrusaSlicer_CONFIG-BUNDLE=.ini". This means you can have the official PrusaSlicer App
+installed and only downloading my "=PrusaSlicer_CONFIG-BUNDLE=.ini" config bundle.
 <br>
 <br>
 
