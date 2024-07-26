@@ -5,7 +5,7 @@ already all nescecary files (profiles) to start right away printing with PLA.
 You can modify and set everything to different materials like PETG (which should be easy for you).
 <br>
 
-**MOTIVATION:**
+<ins>**MOTIVATION:**</ins>
 <br>
 I don´t like to use the regular "Anycubic Sclicer". I also don´t like to use the modified ver. of OrcaSlicer by Anycubic.
 the original PrusaSlicer is fast and reliable. Therefore i wanted it to work with Anycubic Kobra 3 combo multimaterial.
@@ -13,7 +13,20 @@ the original PrusaSlicer is fast and reliable. Therefore i wanted it to work wit
 
 It works with the ACE Pro - Multimaterial & without. In my case, i use the ACE Pro.
 <br>
+
+<ins>2nd Point:</ins>
 <br>
+Your Profiles are stored inside a folder "PrusaSlicer" which is located under a folder "Roaming" inside the users folder.
+If you change your computer, or if you have 4x laptops at home, you like to have an App "really" portable. Otherwise you will be busy 
+copying files and folders or be forced to make adjustments again or beeing busy importing settings.
+<br>
+
+This is why i automated the process via a batch file to just click the link / *.bat file without the need to pay attention
+which computer i use or where i copyied the App. Thats the benefit of portable apps.
+<br>
+<br>
+
+
 
 Make this version work, step by step:
 =====================================
@@ -38,7 +51,7 @@ Make this version work, step by step:
 
 6.) delete both "resources.zip.001" & "resources.zip.002", if you like
 
-7.) go back to the root-folder & start "prusa-slicer_START.bat" as admin, 
+7.) go back to the root-folder & start "prusa-slicer_START.bat" as <ins>admin</ins>, 
     which automates the process of linking your "Roaming"-Folder "PrusaSlicer" 
     whereever you move your PrusaSlicer App or use a different Computer, for 
     example.
@@ -47,8 +60,17 @@ Make this version work, step by step:
 <br>
 <br>
 
+If you only aming for the profiles, without using my version of PrusaSlicer:
+============================================================================
+Your Profiles are stored inside a folder "PrusaSlicer" which is located under a folder "Roaming" inside the users folder.
+You can copy all this manually, or you can use the build-in function of PrusaSlicer to import a "config bundle". The "config bundle"
+is inside this PrusaSlicer version, named: "=PrusaSlicer_CONFIG-BUNDLE=.ini"
+<br>
+<br>
+
 Be aware, that this PrusaSlicer vers. is not super optimized by me:
 ===================================================================
-I adapted all values / parameters as good as i could from the regular *Anycubic Slicer*. Feel free to optimize it by yourself.
+But it works fine with fast printing & good quality for me. I adapted all values / parameters as good as i could from the regular *Anycubic Slicer*. Feel free to optimize it by yourself.
+Make some comments or report issues, if you like.
 
 
