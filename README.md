@@ -1,3 +1,38 @@
+<!-- 
+COMMENTS:
+This content will not appear in the rendered Markdown 
+<br>
+# ${This\ is\ a\ {\color{red}Big}}\ Title$
+<br>
+$${\color{red}This \space is \space red}$$
+$${\color{blue}This \space is \space blue}$$
+$${\color{green}This \space is \space green}$$
+<br>
+${\color{green}This \space is \space green}$  <-- left aligned
+$${\color{green}This \space is \space green}$$  <-- middle aligned
+<br>
+### Using Diff Syntax Highlighting
+```diff
+- This text will be red
++ This text will be green
+! This text will be orange
+# This text will be gray
+@@ This text will be purple @@
+```
+<br>
+> ``` This text will be green```
+<br>
+<mark>**| 4 .**</mark> delete both *.zip´s, if you like
+<br>
+<span style="color:red">text in red</span>
+<br>
+![](message=gdgdg&color=green)
+<br>
+$\color{lightblue}{\textrm{this is a example text by me}}$  
+$\color{lightblue}{\textrm{"=RAW_PrusaSlicer_ROAMING=.zip"}}$   <-- "_" does not work here
+<br>
+> $\color{red}{\textrm{This text will be gdsfgd gdgdfg}}$
+-->
 
 PrusaSlicer vers. 2.80 for Anycubic Kobra 3 combo
 =================================================
@@ -41,15 +76,15 @@ Make this version work, step by step:
 
 <mark>**| 3 .**</mark> inside this folder, you need to:
 
-   > unpack "=RAW_PrusaSlicer_ROAMING=.zip" to "_PrusaSlicer_ROAMING" 
+   > ```unpack "=RAW_PrusaSlicer_ROAMING=.zip" to "_PrusaSlicer_ROAMING"```
 
-   > unpack "PrusaSlicer_DLL.zip" to "PrusaSlicer.dll" 
+   > ```unpack "PrusaSlicer_DLL.zip" to "PrusaSlicer.dll"```
 
 <mark>**| 4 .**</mark> delete both *.zip´s, if you like
 
 <mark>**| 5 .**</mark> go into the subfolder "resources" and unpack:
 
-   > "resources.zip.001"
+   > ```"resources.zip.001"```
 
    which outputs many subfolders
 
