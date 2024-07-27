@@ -9,18 +9,18 @@ You can modify and set everything to different materials like PETG (which should
 <ins>**MOTIVATION:**</ins>
 <br>
 I don´t like to use the regular "Anycubic Sclicer". I also don´t like to use the modified ver. of OrcaSlicer by Anycubic.
-the original PrusaSlicer is fast and reliable. Therefore i wanted it to work with Anycubic Kobra 3 combo multimaterial.
+The original PrusaSlicer is fast and reliable. Therefore i wanted it to work with Anycubic Kobra 3 combo multimaterial.
 <br>
 
-In my case, it works with the ACE Pro - Multimaterial & without. It prints very well. This way i have all the new features from
-the PrusaSlicer i would like to use. Staying with Anycubic Slicer, new features would take time to be implemented.
+In my case, it works with the ACE Pro - Multimaterial & without. It prints very well. This way, i have all the new features from
+the PrusaSlicer i would like to use. Staying with Anycubic Slicer, new features would take time, to be implemented.
 <br>
 
 <ins>2nd Point:</ins>
 <br>
 Your Profiles are stored inside a folder "PrusaSlicer" which is located under a folder "Roaming" inside the users folder.
 If you change your computer, or if you have 4x laptops at home, you like to have an App "really" portable. Otherwise you will be busy 
-copying files and folders or be forced to make adjustments again or beeing busy importing settings.
+copying files and folders, or be forced to make adjustments again, or be busy importing settings.
 <br>
 
 This is why i automated the process via a batch file to just click the link / *.bat file without the need to pay attention
