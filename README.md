@@ -1,3 +1,4 @@
+
 PrusaSlicer vers. 2.80 for Anycubic Kobra 3 combo
 =================================================
 This is a portable *PrusaSlicer v2.80* for *Anycubic Kobra 3 combo* which includes 
@@ -34,27 +35,27 @@ Make this version work, step by step:
 =====================================
 ![alt text](https://github.com/weekendkoder/PrusaSlicer_v2.8/blob/media_files/Folder_structure.png)
 <br>
-1.) Download this repo, via --> Code --> Download ZIP
+<mark>**| 1 .**</mark> Download this repo, via --> Code --> Download ZIP
 
-2.) unpack the Zip. You will got a folder called "PrusaSlicer_v2.8-main".
+<mark>**| 2 .**</mark> unpack the Zip. You will got a folder called "PrusaSlicer_v2.8-main".
 
-3.) inside this folder, you need to:
+<mark>**| 3 .**</mark> inside this folder, you need to:
 
    > unpack "=RAW_PrusaSlicer_ROAMING=.zip" to "_PrusaSlicer_ROAMING" 
 
    > unpack "PrusaSlicer_DLL.zip" to "PrusaSlicer.dll" 
 
-4.) delete both *.zip´s, if you like
+<mark>**| 4 .**</mark> delete both *.zip´s, if you like
 
-5.) go into the subfolder "resources" and unpack:
+<mark>**| 5 .**</mark> go into the subfolder "resources" and unpack:
 
    > "resources.zip.001"
 
    which outputs many subfolders
 
-6.) delete both "resources.zip.001" & "resources.zip.002", if you like
+<mark>**| 6 .**</mark> delete both "resources.zip.001" & "resources.zip.002", if you like
 
-7.) go back to the root-folder & start "prusa-slicer_START.bat" as <ins>admin</ins>, 
+<mark>**| 7 .**</mark> go back to the root-folder & start "prusa-slicer_START.bat" as <ins>admin</ins>, 
     which automates the process of linking your "Roaming"-Folder "PrusaSlicer" 
     whereever you move your PrusaSlicer App or use a different Computer, for 
     example.
