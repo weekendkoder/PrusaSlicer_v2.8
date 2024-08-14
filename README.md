@@ -75,34 +75,26 @@ These files are containing the Updates:
 
 <ins>**Parameters that got updated:**</ins>
 <br>
+<br>
 -> Print Settings -> Speed: 
 
     - Infill: 150
     - Support Material Interface: 120
-<br>
 -> Print Settings -> Advanced: 
 
     - First Layer: 0.4 (is now controlled via G-Code macros)
     - Perimeters: 0.4
     - External Perimeters: 0.4
     - Infill: 0.4
-<br>
-
 -> Filaments -> Advanced: 
 
     - max. Volumetric Speed: 0 (0 means, no limits.)
-<br>
-
 -> Filaments -> Overrides: 
 
     - Lift Heights: 0.6 (to not kick out smaller Objects, when warped) 
-<br>
-
 -> Printers -> General: 
 
     - G-code Thumbnails: 320x200/PNG (to got a picture of your Print on your Print-Screen)
-<br>
-
 -> Printers -> Custom G-Code: 
 
     - Before Layer Change G-code: M221 S{if layer_num==0}120{else}93{endif}  ; sets only 1st_layer extr.multipl. a bit higher !
