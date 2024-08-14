@@ -67,7 +67,7 @@ which computer i use or where i copyied the App. Thats the benefit of portable a
 
 CHANGELOG
 ==========
-I optimized the Kobra 3 Profile for my purposes. So you have the option use the NEW-settings, or keep the old ones.
+I optimized the Kobra 3 Profile for my purposes. So you have the option to use the NEW-settings, or keep the old ones.
 <br>
 These files are containing the Updates:
 - =RAW_PrusaSlicer_ROAMING=_v2.zip
