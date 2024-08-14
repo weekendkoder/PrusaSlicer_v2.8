@@ -65,6 +65,49 @@ which computer i use or where i copyied the App. Thats the benefit of portable a
 <br>
 
 
+CHANGELOG
+==========
+I optimized the Kobra 3 Profile for my purposes. So you have the option use the NEW-settings, or keep the old ones.
+<br>
+These files are containing the Updates:
+- =RAW_PrusaSlicer_ROAMING=_v2.zip
+- =PrusaSlicer_CONFIG-BUNDLE=_v2.ini
+<br>
+
+<ins>**Parameters that got updated:**</ins>
+<br>
+-> Print Settings -> Speed: 
+
+    - Infill: 150
+    - Support Material Interface: 120
+<br>
+-> Print Settings -> Advanced: 
+
+    - First Layer: 0.4 (is now controlled via G-Code macros)
+    - Perimeters: 0.4
+    - External Perimeters: 0.4
+    - Infill: 0.4
+<br>
+
+-> Filaments -> Advanced: 
+
+    - max. Volumetric Speed: 0 (0 means, no limits.)
+<br>
+
+-> Filaments -> Overrides: 
+
+    - Lift Heights: 0.6 (to not kick out smaller Objects, when warped) 
+<br>
+
+-> Printers -> General: 
+
+    - G-code Thumbnails: 320x200/PNG (to got a picture of your Print on your Print-Screen)
+<br>
+
+-> Printers -> Custom G-Code: 
+
+    - Before Layer Change G-code: M221 S{if layer_num==0}120{else}93{endif}  ; sets only 1st_layer extr.multipl. a bit higher !
+<br>
 
 Make this version work, step by step:
 =====================================
@@ -76,7 +119,7 @@ Make this version work, step by step:
 
 <mark>**| 3 .**</mark> inside this folder, you need to:
 
-   > ```unpack "=RAW_PrusaSlicer_ROAMING=.zip" to "_PrusaSlicer_ROAMING"```
+   > ```unpack "=RAW_PrusaSlicer_ROAMING=.zip" (=RAW_PrusaSlicer_ROAMING=_v2.zip) to "_PrusaSlicer_ROAMING"```
 
    > ```unpack "PrusaSlicer_DLL.zip" to "PrusaSlicer.dll"```
 
@@ -103,7 +146,7 @@ If you only aming for the profiles, without using my version of PrusaSlicer:
 ============================================================================
 Your Profiles are stored inside a folder "PrusaSlicer" which is located under a folder "Roaming" inside the users folder.
 You can copy all this manually, or you can use the build-in function of PrusaSlicer to import a "config bundle". The "config bundle"
-is inside this PrusaSlicer version, named: "=PrusaSlicer_CONFIG-BUNDLE=.ini". This means you can have the official PrusaSlicer App
+is inside this PrusaSlicer version, named: **"=PrusaSlicer_CONFIG-BUNDLE=.ini"**. (Use **"=PrusaSlicer_CONFIG-BUNDLE=_v2.ini"** if you want the updated vers.) This means you can have the official PrusaSlicer App
 installed and only downloading my "=PrusaSlicer_CONFIG-BUNDLE=.ini" config bundle.
 <br>
 ![alt text](https://github.com/weekendkoder/PrusaSlicer_v2.8/blob/media_files/Config_Bundle.png)
